@@ -17,15 +17,33 @@ body {
   background-size: cover;
   background-position: center;
   padding: 3rem;
-
-  display: grid;
-  place-items: center;
-  text-align: center;
 }
 h1 {
   font-size: 1.5rem;
   color: #fff;
   font-weight: 200;
+  border: 2px solid red;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.container .buttons {
+  /* border: 2px solid salmon; */
+  width: 90%;
+  margin: 1.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons .btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #4954a5;
 }
 
 @media screen and (max-width: 768px) {
