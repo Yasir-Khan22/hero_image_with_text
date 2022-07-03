@@ -22,28 +22,49 @@ h1 {
   font-size: 1.5rem;
   color: #fff;
   font-weight: 200;
-  border: 2px solid red;
   width: 50%;
   margin: 0 auto;
   text-align: center;
 }
 .container .buttons {
-  /* border: 2px solid salmon; */
   width: 90%;
   margin: 1.625rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.container button {
+  margin: 5px;
+}
 .buttons .btn {
-  width: 130px;
+  width: 100px;
   height: 40px;
   color: #fff;
   border: none;
   outline: none;
   border-radius: 5px;
   cursor: pointer;
-  background: #4954a5;
+}
+#readMoreBtn {
+  background: rgb(0, 3, 255);
+}
+#ContactBtn {
+  background: #390b0d;
+}
+#readMoreBtn:hover {
+  background: rgb(0, 3, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 3, 255, 1) 0%,
+    rgba(2, 126, 251, 1) 100%
+  );
+}
+#ContactBtn {
+  background: #521215;
+}
+#ContactBtn:hover {
+  background: #521215;
+  background: linear-gradient(0deg, #450e10 0%, #450e10 100%);
 }
 
 @media screen and (max-width: 768px) {
